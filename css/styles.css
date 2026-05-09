@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6 rem;
+    color: #ac04048f;
+    background: #02ffff6c;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 3rem 0;
+}
+
+p{
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+h2 {
+  color: #0892c9a6;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.btn {
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  
+}
+
+header,
+footer {
+  background: #160381e3;
+  color: #ffffff;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-logo {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.logo,
+.header-nav ul li a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: inherit;
+  display: inline-block;
+  padding: 2rem;
+}
+
+.header-nav ul,
+footer .footer-list {
+  list-style: none;
+
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-list li {
+  padding: 1rem;
+}
+
+.footer-list img {
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+/* colores */
+.bg-primary {
+  background-color: #160381e3;
+}
+
+.bg-secondary {
+  background-color: #f2c66d;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-dark {
+  color: #2a1e35;
+}
+
+.text-secondary {
+  color: #160381e3;
+}
+
+/*  inicio */
+
+.parrafo {
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.contenedor-tarjetas {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #2600ffe3;
+  color: #ffffff;
+  width: 40rem;
+
+  border-radius: 1rem;
+  overflow: hidden;
+
+  /* Nuevo: */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  padding-bottom: 2rem;
+}
+
+.card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+/*  CONTACTO  */
+.titulo-contacto {
+  margin: 4rem 0;
+}
+
+.form-contacto {
+  background-color: #160381e3;
+  color: #ffffff;
+  width: 100%;
+  max-width: 50rem;
+  font-size: 2rem;
+  padding: 4rem;
+  border-radius: 1rem;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* sutil */
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  header,
+  footer {
+    flex-direction: column;
+  }
+}
