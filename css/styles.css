@@ -9,7 +9,7 @@ html{
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.6 rem;
+    font-size: 1.6rem;
     color: #ac04048f;
     background: #02ffff6c;
 
@@ -179,6 +179,18 @@ footer .footer-list {
   border-radius: 1rem;
 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* sutil */
+}
+
+.grupo-input textarea {
+    resize: none; 
+    width: 100%;
+    min-height: 12rem; 
+  
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-family: inherit;
+    font-size: 1.6rem;
 }
 
 /* Media Queries */
